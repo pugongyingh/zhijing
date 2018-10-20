@@ -1,0 +1,55 @@
+*{padding:0;margin:0;}
+body{ background:#fff; font-family:"Microsoft YaHei",arial,simsun,sans-serif; font-size:62.5%;}
+html{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+.title_img{width: 100%;height: 13rem;padding-top: 5rem;padding-bottom: 2rem;background-color: #339900;}
+.icon{width: 6rem;height: 6rem;display: block;margin-bottom:3rem;margin-left: auto;margin-right: auto;}
+#download{width: 16.5rem;height: 3.5rem;display: block;margin-left: auto;margin-right: auto;}
+.weixin_box {
+    width: 116px;
+    height: 116px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 4px 5px 4px;
+    background: url(../../images/wei_bg.png) no-repeat;
+}
+.main{ width:90%; height:auto; margin:0 auto; max-width: 850px;}
+h1{font-size:1.6rem; font-weight: normal; text-align:center; margin-top: 2rem;}
+h2{font-size:1.2rem; text-align:center; font-weight: normal; color:#433f38;}
+h4,h5{font-size:1rem; font-weight: normal; margin:15px 0px;}
+h5:hover{cursor: pointer;}
+h5{background-color: #CCCCCC;  line-height: 2rem;  margin-left: 4%; width: 85%;}
+.series{margin:1rem auto; width: 100%;height: 4.5rem;}
+.series p{text-align: center;font-size: 1rem;}
+.m_series{width: 5rem;height: 4.5rem;display:inline-block;margin-left: 2.5rem;float: left;}
+.m_series img{width: 5rem;height: 4.5rem;}
+.b_series{width: 6rem;height: 4rem;display:inline-block;margin-right: 2.5rem; float: right;margin-top: 0.5rem;}
+.b_series img{width: 6rem;height: 4rem;}
+.mai_list_b{ height:auto; margin-bottom:30px; margin-top: 2.5rem;display: none;}
+.mai_list_b p{ font-size:0.9rem; color:#808080; margin-bottom:5px;}
+.mai_list_b p img{ display:block; margin:0 auto; max-width:100%;}
+.mai_list_m{ height:auto; margin-bottom:30px; margin-top: 2.5rem;}
+.mai_list_m p{ font-size:0.9rem; color:#808080; margin-bottom:5px;}
+.mail_list_message{text-align: center;}
+table tr td{ border-right:1px solid #999;border-bottom:1px solid #999; padding:5px ; }
+.mb10px img{width: 80%;height: 80%; margin: 0 10% 10% 10%;}
+.mai_list_partner img{display: block;max-width: 100%;margin: 0 auto;}
+a{text-decoration:none; cursor:pointer; color:#70c60c;word-break:break-all;}
+a:link, a:visited{ cursor:pointer; color:#70c60c; }
+a:hover, a:active{text-decoration:none; color:#70c60c;}
+.hide{display: none;}
+.title{
+    background: url(../images/help/down.png) right center no-repeat;
+    background-size: 0.8rem 0.4rem;
+    background-position:96% 50%;
+    background-color:#CCCCCC;
+    width: 100%;
+    height: auto;
+}
+.change{
+    background: url(../images/help/up.png) right center no-repeat;
+    background-color: #CCCCCC;
+    background-size: 0.8rem 0.4rem;
+    background-position: 96% 50%;
+    height: auto;
+}

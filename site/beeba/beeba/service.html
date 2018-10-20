@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from www.beeba.cn/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Oct 2018 06:49:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>比巴</title>
+    <link rel="stylesheet" href="new_201707/css/reset.css">
+    <link rel="stylesheet" href="new_201707/css/index.css">
+</head>
+<body>
+    <div class="m-wrap">
+        <div class="m-hd">
+        	<div class="mbox hd-con clearfix">
+        		<h1 class="hd-logo fl">
+        			<a href="index.html"><img src="new_201707/img/logo.jpg" alt="比巴logo"></a>
+        		</h1>
+                <div class="hd-pro-box fl">
+                    <div class="hd-pro fontsize18px">产品</div>
+                    <div class="hd-pro-imgbox">
+                        <a href="product_b.html">
+                        <img src="new_201707/img/type_b.png" class="pro-b fl" alt="" title="">
+                        </a>
+                        <a href="product_m.html">
+                        <img src="new_201707/img/type_m.png" class="pro-m fl" alt="" title="">
+                        </a>
+                        <a href="product_c.html">
+                            <img src="new_201707/img/type_c.png" class="pro-c fl" alt="" title="">
+                        </a>
+                    </div>
+                </div>
+        		<ul class="hd-nav fr">
+        			<li class="fl">
+        				<a href="page.html" class="color--gray hd-nav-act">关于比巴</a>
+        			</li>
+        			<li class="fl">
+        				<a href="###" class="color--gray">
+                            <i class="hd-downarrow fl"></i> APP下载</a>
+                            <span class="codebox">
+                                <img src="new_201707/img/code.jpg" alt="" title="">
+                            </span>
+        			</li>
+        			<li class="fl">
+        				<a href="app/m1.html" target="blank" class="color--gray">常见问题</a>
+        			</li>
+        			<li class="fl">
+        				<a href="###" class="color--gray">售后热线</a>
+                        <span class="codebox codebox-hot">
+                            400-837-0878<br>
+                            (周一至周六9:00-21:00)<br>
+                            在线客服<br>
+                            联系地址：深圳市南山区高新区北区朗山二路5号新奥林大厦205-206（三楼）
+                        </span>
+        			</li>
+        			<li class="fl">
+        				<a href="https://detail.tmall.com/item.htm?id=563691658612&amp;skuId=3719214539752" target="blank" class="color--gray"><i class="hd-downarrow fl"></i>产品购买</a>
+        			</li>
+        		</ul>
+        	</div>
+        </div>
+        <div class="m-main">
+        	<div class="m-service">
+                <img src="new_201707/img/sell.jpg" alt="">
+            </div>
+        </div>
+        <div class="m-fd">
+            <div class="mbox ">
+                <div class="fd-tp">
+                    <ul class="fd-list fl">
+                        <li class="fl">
+                            <a href="service.html" title="">售后服务</a>
+                        </li>
+                        <li class="fl">
+                            <a href="###" title="">帮助中心</a>
+                        </li>
+                        <li class="fl">
+                            <a href="join_us.html" title="">商务合作</a>
+                        </li>
+                    </ul>
+                    <div class="fd-tprg fr">
+                        <a class="fr" href="###" title="">
+                            <img src="new_201707/img/wb.png" alt="" title="">
+                        </a>
+                        <a class="fr" href="###" title="">
+                            <img src="new_201707/img/wx.png" alt="" title="">
+                            <span class="wx-codebox"><img src="new_201707/img/code.jpg" alt="" title=""></span>
+                        </a>
+
+                    </div>
+                </div>
+                <h3 class="partner-tit fontsize18px">合作伙伴</h3>
+                <img src="new_201707/img/partner.png" alt="" title="" class="partener-pic">
+            </div>
+            <div class="copyright">COPYRIGHT©2014-2016，BEEBA TECHNOLOGYO,LTD.ALL RIGHTS RESERVED. 比巴科技有限公司 粤ICP备14015597</div>
+
+        </div>
+    </div>
+    <script src="new_201707/js/jquery.min.js"></script>
+    <script>
+        $(".main-list li").on("click", function() {
+
+            $(this).addClass("main-list-act").siblings().removeClass("main-list-act");
+            var thisIndex = $(this).index();
+            $(".main-box .main-con").eq(thisIndex).removeClass("none").siblings().addClass("none");
+        })
+
+        //索引切换
+        function tab(){
+            var id = window.location.search.split('=')[1];
+            $(".main-list li").eq(id-1).addClass("main-list-act").siblings().removeClass("main-list-act");
+            $(".main-box .main-con").eq(id-1).removeClass("none").siblings().addClass("none");
+        }
+        tab();
+    </script>
+
+    <script src="js/is_pc.js"></script>
+    <script type="text/javascript">
+    do_redirt(false);
+    </script>
+</body>
+
+<!-- Mirrored from www.beeba.cn/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Oct 2018 06:49:19 GMT -->
+</html>

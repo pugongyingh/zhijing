@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+mecare.cn	TRUE	/	FALSE	1999999999	PHPSESSID	crkm1dhbm56h8mgpt8spqh4p73
+hm.baidu.com	TRUE	/	FALSE	1999999999	HMACCOUNT	23AB123B600F5052
+mecare.cn	TRUE	/	FALSE	1999999999	locale	zh
+

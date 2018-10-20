@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 09 Oct 2018 10:02:53 at http://mecare.cn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c8H0%kf2A250000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" http://mecare.cn/ -O1 "C:\My Websites\http___mecare.cn_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/images/home-here.png (from mecare.cn/public/styles/index-min.css?version=20141208)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/images/img-01.png (from mecare.cn/public/styles/index-min.css?version=20141208)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/images/mecarestore.png (from mecare.cn/public/styles/index-min.css?version=20141208)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/images/herevideo.png (from mecare.cn/public/styles/index-min.css?version=20141208)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/images/app-defaul.jpg (from mecare.cn/public/styles/index-min.css?version=20141208)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/images/here-long.png (from mecare.cn/public/styles/index-min.css?version=20141208)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/styles/ajax-loader.gif (from mecare.cn/public/styles/slick-theme.css)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/styles/fonts/slick.eot (from mecare.cn/public/styles/slick-theme.css)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/styles/fonts/slick.eot? (from mecare.cn/public/styles/slick-theme.css)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/styles/fonts/slick.woff (from mecare.cn/public/styles/slick-theme.css)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/styles/fonts/slick.ttf (from mecare.cn/public/styles/slick-theme.css)
+10:06:08	Error: 	"Not Found" (404) at link mecare.cn/public/styles/fonts/slick.svg (from mecare.cn/public/styles/slick-theme.css)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/cup-01-bg.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/cup-02-bg.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/more-icon.png (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/cuptime-02-01.png (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/cuptime-02-02.png (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/cuptime-02-03.png (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/3-an.png (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/3-dw.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/5-s.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/5-h.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/6-bg.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/cup-08-bg.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/9-01.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/9-02.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/images/cuptime/9-03.jpg (from mecare.cn/public/styles/mecare-common.css?version=20141124)
+10:08:46	Error: 	"Not Found" (404) at link mecare.cn/public/fonts/mcsy.svg (from mecare.cn/public/styles/mecare-seed.css?version=20150824)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 2 seconds : 436 links scanned, 407 files written (83658733 bytes overall) [82930529 bytes received at 229089 bytes/sec], 1247221 bytes transferred using HTTP compression in 59 files, ratio 29%, 7.5 requests per connection
+(28 errors, 0 warnings, 0 messages)

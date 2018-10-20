@@ -1,0 +1,93 @@
+/***********************************
+// date:2015 08 25
+// 功能：麦开官网通用文件
+// 作者：leo
+// Emial：Readchar@163.com
+*********************************/
+/*麦开官网gene产品页样式*/
+.gc-anim{
+	animation:gc-anim ease-out infinite 5000ms;
+	-webkit-animation:gc-anim ease-out infinite 5000ms;
+}
+.moikit-gt-adv b{
+	display:inline-block;
+	font-size: 18px;
+    font-weight: lighter;
+}
+.out{
+	transform:translateY(30px);
+	-webkit-transform:translateY(30px);
+	-moz-transform:translateY(30px);
+	-o-transform:translateY(30px);
+	opacity:0;
+	transition:all ease-out 1000ms;
+	-webkit-transition:all ease-out 1000ms;
+	-moz-transition:all ease-out 1000ms;
+	-o-transition:all ease-out 1000ms;
+}
+.stop-c,.stop-l{
+	transform:translateY(100px);
+	-webkit-transform:translateY(100px);
+	transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+    -webkit-transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+}
+.moikit-gene-ptk-a,.moikit-gene-ptk-b,.moikit-gene-ptk-c,.moikit-gene-ptk-d{
+	transform:translateY(550px);
+	-webkit-transform:translateY(550px);
+	transition:all cubic-bezier(0.215,0.61,0.355,1) 2.0s;
+    -webkit-transition:all cubic-bezier(0.215,0.61,0.355,1) 2.0s;
+}
+.moikit-gene-ptk-b{
+	transition-delay:400ms;
+}
+.moikit-gene-ptk-c{
+	transition-delay:800ms;
+}
+.moikit-gene-ptk-d{
+	transition-delay:1200ms;
+}
+.stop-g,.stop-i{
+	transform:translateY(80px);
+	-webkit-transform:translateY(80px);
+	transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+    -webkit-transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+}
+.stop-f{
+	transform:translate(80px,150px);
+	-webkit-transform:translate(80px,150px);
+	transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+    -webkit-transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+}
+.stop-h{
+	transform:translate(-150px,-50px);
+	-webkit-transform:translate(-150px,-50px);
+	transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+    -webkit-transition:all cubic-bezier(0.215,0.61,0.355,1) 1.8s;
+}
+.in{
+	transform:translate(0px,0px);
+	-webkit-transform:translate(0px,0px);
+	-moz-transform:translate(0px,0px);
+	-o-transform:translate(0px,0px);
+	opacity:1;
+}
+@-webkit-keyframes gc-anim{
+	0{
+		-webkit-transform:scaleY(1);
+	}
+	5%{
+		-webkit-transform:scaleY(0);
+	}
+	10%{
+		-webkit-transform:scaleY(-1);
+	}
+	15%{
+		-webkit-transform:scaleY(0);
+	}
+	20%{
+		-webkit-transform:scaleY(1);
+	}
+	100%{
+		-webkit-transform:scaleY(1);
+	}
+}

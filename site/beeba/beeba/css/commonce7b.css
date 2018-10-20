@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*内置标式*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, button{padding:0px; margin:0px; font-family:Microsoft YaHei;}
+fieldset, img, button{border:0px;}
+html{ 
+   _text-overflow:ellipsis; 
+   } 
+ol, ul ,li{list-style: none;}
+body {font: 12px Arial, Helvetica, sans-serif; color:#433f38; font-size:62.5%;}
+input, label, select, option, textarea, button, fieldset, legend{font:12px/18px Verdana, Simsun, Helvetica, Arial, sans-serif;}
+table{font:12px/18px Verdana, Simsun, Helvetica, Arial, sans-serif;}
+ul{list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;}
+*{ margin:0; padding:0;}
+.wrapfix:after {content: ".";  display: block; height: 0; clear: both; visibility: hidden;}
+.fl{ float:left;}
+.fr{ float:right;}
+/*链接文字*/
+a{text-decoration:none; cursor:pointer;color:#433f38;}
+a:link, a:visited{ cursor:pointer; }
+a:hover, a:active{text-decoration:none; }
+
+body{ min-width:1280px;}
+.wrapperbox{ width:100%; height:auto; overflow:hidden; position:relative;}
+.herderBox{ width:100%; height:80px; position:fixed; top:0px; background:url(../images/heaber_bg.png); left:50%; margin-left:-50%; z-index:10;}
+.herder_conmon{ min-width:1024px; max-width:1280px;height:80px; margin:0 auto;}
+.logo{ width:166px; height:auto; float:left; padding-top:16px;}
+.logo img{ width:100%; height:auto;}
+.her_navBox{ width:500px; height:24px; float:right; padding-top:57px;}
+.her_navBox li{ width:100px; height:24px; float:left; text-align:center;}
+.her_navBox li a{ display:inline-block; width:90px; text-align:center; height:24px; line-height:24px; font-size:14px; border-radius:15px;}
+.her_navBox li a.bg_70c60c{ background:#70c60c; color:#fff;}
+.her_navBox li a:hover{-webkit-transform:translate(0px,-2px);-moz-transform:translate(0px,-2px);-webkit-transition:ease all;-moz-transition:ease all; -webkit-transition-duration:0.3s; -moz-transition-duration:0.3s;}
+.mt_80{ margin-top:80px;}
+.herderBox_small{ width:100%; height:59px; position:fixed; top:-59px; background: url(../images/heaber_small_bg.png) repeat-x; left:50%; margin-left:-50%; z-index:10;}
+.herder_conmon_small{ min-width:1024px; max-width:1280px;height:59px; margin:0 auto;}
+.logo_small{ width:143px; height:auto; float:left;}
+.logo img{ width:100%; height:auto;}
+
+
+.footer{ width:100%; height:auto; background:#70c60c; padding:60px 0px 50px; font-size:12px; z-index:6; position:relative;}
+/*.footer img{ width:265px; height:116px; display:block; margin:0px auto;}*/
+.footer_box{ width:950px; height:auto; margin:0px auto 0px; padding-bottom:20px;}
+.foot_nav{ width:492px; height:120px; margin:0 auto; }
+.foot_nav li{ width:105px; height:120px; float:left; border-right:1px solid #fff; padding-left:42px; position:relative;}
+.foot_nav li h2{ font-size:15px ; color:#fff; margin-bottom:10px;}
+.foot_nav li p{ height:22px; line-height:22px;color:#fff;}
+.foot_nav li p a{ color:#fff;}
+.foot_logo{ width:148px; height:120px; float:left;}
+.foot_botBox{ width:100%; height:auto;}
+.foot_link{ height:22px; line-height:22px; text-align:center;color:#fff; margin-top:5px;}
+.foot_link span, .foot_link a{ color:#fff; margin:0px 5px;}
+.footer_box p.c_433f38, .footer_box p.c_433f38 a{ color:#fff;}
+.footer_box a:hover{color:#fff; }
+.poa_wei{ width:115px; height:129px;  position:absolute; left:-36px; top:-133px; background:url(../images/list_0063.png) no-repeat; z-index:9;}
+.poa_wei img{ width:93px; display:block; margin:11px auto 0px;}
+.foot_botBox p img{ display:block; margin:0 auto;}
+
+

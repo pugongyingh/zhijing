@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 09 Oct 2018 08:44:29 at http://hdinvesting.cn/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c8H0%kf2A250000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" http://hdinvesting.cn/ -O1 "C:\My Websites\http___hdinvesting.cn_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:44:36	Error: 	"Method Not Allowed" (405) at link hdinvesting.cn/xmlrpc.php (from hdinvesting.cn/)
+08:44:43	Warning: 	File not parsed, looks like binary: hdinvesting.cn/wp-content/themes/corporate-plus/assets/library/Font-Awesome/fonts/fontawesome-webfont.woff2?v=4.5.0
+08:44:43	Warning: 	File not parsed, looks like binary: hdinvesting.cn/wp-content/themes/corporate-plus/assets/library/Font-Awesome/fonts/fontawesome-webfont.ttf?v=4.5.0
+08:44:44	Warning: 	Moved Permanently for hdinvesting.cn/?p=4
+08:44:44	Warning: 	File has moved from hdinvesting.cn/?p=4 to http://hdinvesting.cn/?page_id=4
+08:44:44	Warning: 	Moved Permanently for hdinvesting.cn/?p=219
+08:44:44	Warning: 	File has moved from hdinvesting.cn/?p=219 to http://hdinvesting.cn/?page_id=219
+08:44:44	Warning: 	Moved Permanently for hdinvesting.cn/?p=6
+08:44:44	Warning: 	File has moved from hdinvesting.cn/?p=6 to http://hdinvesting.cn/?page_id=6
+08:44:44	Warning: 	Moved Permanently for hdinvesting.cn/?p=49
+08:44:44	Warning: 	File has moved from hdinvesting.cn/?p=49 to http://hdinvesting.cn/?page_id=49
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 seconds : 82 links scanned, 76 files written (3365367 bytes overall) [2963317 bytes received at 185207 bytes/sec], 597675 bytes transferred using HTTP compression in 42 files, ratio 27%, 9.1 requests per connection
+(1 errors, 10 warnings, 0 messages)

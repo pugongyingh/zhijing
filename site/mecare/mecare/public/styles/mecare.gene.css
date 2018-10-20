@@ -1,0 +1,599 @@
+/***********************************
+// date:2015 08 25
+// 功能：麦开官网通用文件
+// 作者：leo
+// Emial：Readchar@163.com
+*********************************/
+/*麦开官网gene产品页样式*/
+.moikit-gene-nav{
+	background-color:rgba(255,255,255,0.1);
+	height:66px;
+	position:absolute;
+	width:100%;
+	z-index:888;
+}
+.moikit-gn-content{
+	width:1190px;
+	margin:0 auto;
+}
+.moikit-nav-logo{
+	float:left;
+	margin-top:20px;
+}
+.moikit-gn-box{
+	height: 28px;
+    float: right;
+    margin-top: 19px;
+    line-height: 28px;
+}
+.moikit-gn-box a{
+	margin-right: 30px;
+    font-size: 12px;
+	color:#666666;
+	transition: all ease-out 0.3s;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+	cursor:pointer;
+}
+.moikit-gn-box a.moikit-gn-action,.moikit-gn-box a:hover{
+	color:#ffffff;
+}
+.moikit-gn-box a.pn-bye{
+	display: inline-block;
+    width: 94px;
+    height: 28px;
+    text-align: center;
+    background: #00CCFF;
+    border-radius: 5px;
+    margin-right: 0px;
+	color:#ffffff;
+}
+.moikit-gene-pta{
+	height:1080px;
+	background:url(../images/gene/pro/gene_bg_a.jpg) center center no-repeat;
+	background-size:auto 100% ;
+}
+.moikit-gene-txt{
+	position:relative;
+	width:1190px;
+	height:100%;
+	margin:0 auto;
+}
+.moikit-gt-tit{
+	font-size:36px;
+	color:#999999;
+	font-weight:300;
+	margin:10px 0px 12px;
+	line-height: 36px;
+}
+.moikit-gt-adv{
+	font-size:18px;
+	color:#999999;
+	font-weight:300;
+}
+.moikit-gt-price{
+	font-size:42px;
+	color:#00acd4;
+	margin:60px 0px 20px;
+}
+.moikit-gt-price span{
+	font-size:18px;
+	font-weight:lighter;
+	color:#00acd4;
+}
+.moikit-video-btn:hover{
+	cursor:pointer;
+}
+.moikit-video-btn span{
+	font-size:18px;
+	font-weight:lighter;
+	color:#00acd4;
+	line-height:0px;
+	line-height:16px;
+	float:left;
+	margin-right:5px;
+}
+.moikit-video-btn img{
+	float:left;
+}
+.moikit-gtpta-box{
+	position:absolute;
+	top:395px;
+	text-align:left;
+}
+.moikit-gene-ptb{
+	position:relative;
+	height:860px;
+	background:url(../images/gene/pro/gene_bg_b.jpg) center center no-repeat;
+	background-size:auto 100% ;
+}
+.moikit-txt-title{
+	color:#dddddd;
+	font-size:42px;
+	font-weight:300;
+	margin-bottom:30px;
+	text-align:center;
+	line-height:50px;
+}
+.moikit-txt-content{
+	color:#666666;
+	font-size:16px;
+	line-height:30px;
+	width:990px;
+	text-align:center;
+	margin:0 auto;
+}
+.moikit-gtptb-box{
+	position:absolute;
+	bottom:80px;
+	width:100%;
+}
+.moikit-gene-ptc{
+	position:relative;
+	height:860px;
+	background:#222222;
+	overflow:hidden;
+}
+.moikit-gtptc-box{
+	position:absolute;
+	top:100px;
+	width:100%;
+}
+.moikit-txt-tip{
+	font-size:12px;
+	color:#666666;
+	font-size:14px;
+	margin-top:20px;
+	line-height:24px;
+	text-align:center;
+}
+.moikit-txt-tip-left,.moikit-txt-left{
+	text-align:left;
+}
+.moikit-gene-img-c{
+	position:absolute;
+	top:160px;
+	width:100%;
+	text-align:center;
+}
+.moikit-gtptd-box{
+	position:absolute;
+	text-align:left;
+	width:515px;
+	top: 195px;
+    left: 680px;
+}
+.moikit-gene-ptd{
+	position:relative;
+	height:860px;
+	background:url(../images/gene/pro/gene_bg_c.jpg) center center no-repeat;
+	background-size:100% auto;
+	overflow:hidden;
+}
+.moikit-txtd-content{
+	width:auto;
+}
+.moikit-gene-pte{
+	position:relative;
+	height:860px;
+	background:url(../images/gene/pro/gene_bg_d.jpg) center center no-repeat;
+	background-size:auto 100%;
+	overflow:hidden;
+}
+.moikit-gene-ptf{
+	position:relative;
+	height:860px;
+	background:#222222;
+	overflow:hidden;
+}
+.moikit-gene-img-f{
+	position:absolute;
+	top:-150px;
+	left:-50px;
+}
+.moikit-gtptf-box{
+	text-align:left;
+	position:absolute;
+	top: 300px;
+    left: 700px;
+}
+.moikit-gene-ptg{
+	position:relative;
+	height:860px;
+	background:#070707;
+	overflow:hidden;
+}
+.moikit-gene-img-g{
+	position:absolute;
+	bottom:-130px;
+}
+.moikit-gene-pth{
+	position:relative;
+	height:1080px;
+	background:#0e0c0b;
+	overflow:hidden;
+}
+.moikit-gene-img-h{
+	position:absolute;
+	top:0px;
+}
+.moikit-gene-pti{
+	position:relative;
+	height:900px;
+	background:#000001;
+	overflow:hidden;
+}
+.moikit-gene-img-i{
+	position:absolute;
+	bottom:-170px;
+	left:100px;
+	text-align:center;
+	width:100%;
+}
+.moikit-txt-content-na{
+	width:790px;
+}
+.moikit-gene-ptj{
+	position:relative;
+	height:780px;
+	background:url(../images/gene/pro/gene_bg_e.jpg) center center no-repeat;
+	overflow:hidden;
+}
+.moikit-gtptj-box{
+	text-align:left;
+	position:absolute;
+	top: 200px;
+    left: 800px;
+	width:390px;
+}
+.moikit-txt-ipx{
+	font-size:40px;
+	color:#ffffff;
+	background-color:#00acd4;
+	font-weight:lighter;
+	width:86px;
+	height:86px;
+	text-align:center;
+	line-height:86px;
+	margin-top:25px;
+}
+.moikit-gene-ptk{
+	position:relative;
+	height:860px;
+	background:url(../images/gene/pro/gene-bg-j.jpg) 0px 0px repeat-x;
+	overflow:hidden;
+}
+.moikit-txtk-color{
+	color:#333333;
+	font-weight:300;
+}
+.moikit-gene-ptk-app{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.moikit-gene-ptk-pos{
+	position:absolute;
+	top:320px;
+	left:50%;
+	width:1280px;
+	margin-left:-640px;
+}
+.moikit-gene-ptk-lower img{
+	position:relative;
+	display:block;
+	top:100px;
+}
+.moikit-gene-ptk-app span{
+	display:inline-block;
+	margin:0 8px;
+}
+.moikit-gene-ptl{
+	position:relative;
+	height:860px;
+	background:#ffffff;
+	overflow:hidden;
+}
+.moikit-txtl-color{
+	color:#b9b9b9;
+}
+.moikit-gene-img-l{
+	position:absolute;
+	width:100%;
+	bottom:-20px;
+	text-align:center;
+}
+.moikit-gtptl-box{
+	top:80px;
+}
+.moikit-gene-ptm{
+	position:relative;
+	height:860px;
+	background:url(../images/gene/pro/gene_bg_f.jpg) center center no-repeat;
+	overflow:hidden;
+}
+.moikit-gene-ptn{
+	position:relative;
+	height:740px;
+	
+	overflow:hidden;
+}
+
+#mecar-wx{
+	position: fixed;
+    left: 50%;
+    top: 120%;
+    margin-left: -175px;
+    margin-top: -260px;
+    z-index: 1000;
+}
+.moikit-swiper-box-a{
+	background:url(../images/gene/pro/gene_bg_g.jpg) center no-repeat;
+}
+.moikit-swiper-box-b{
+	background:url(../images/gene/pro/gene_bg_h.jpg) center no-repeat;
+}
+.moikit-swiper-box-c{
+	background:url(../images/gene/pro/gene_bg_i.jpg) center no-repeat;
+}
+.swiper-pagination-bullet{
+	width:12px;
+	height:12px;
+	border-radius:6px;
+	border:none;
+	background-color:#fff;
+}
+.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{
+	margin:0px 20px;
+}
+.js-moikit-gene-nav{
+	transition: all ease-out 0.3s;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+}
+.moikit-txtd-ptd,.moikit-txtd-tipptd,.moikit-txt-pth{
+	color:#999999;
+}
+.moikit-txt-gtptc{
+	color:#666666;
+}
+@media screen and (max-width: 640px) {
+	.moikit-nav-logo{
+		margin-left:15px;
+	}
+	.moikit-gene-pta{
+		height:360px;
+	}
+	.moikit-gtpta-box{
+		top:120px;
+		left:15px;
+	}
+	.moikit-gt-logo{
+		position:relative;
+		width:50%;
+	}
+	.moikit-gt-logo img{
+		display:block;
+		width:100%;
+	}
+	.moikit-gt-tit{
+		font-size:24px;
+		margin:5px 0px 10px 0px;
+	}
+	.moikit-gt-adv{
+		font-size:12px;
+	}
+	.moikit-gt-price{
+		margin:10px 0px;
+	}
+	.moikit-gene-ptb{
+		height:320px;
+	}
+	.moikit-txt-content,.moikit-gene-txt{
+		width:100%;
+	}
+	.moikit-txt-title{
+		font-size:28px;
+		line-height:32px;
+		width:90%;
+		margin:0px auto 20px auto;
+	}
+	.moikit-txt-content{
+		font-size:14px;
+		width:90%;
+		margin:0 auto;
+	}
+	.moikit-gtptb-box{
+		bottom:25px;
+	}
+	.moikit-txt-tip{
+		font-size:12px;
+	}
+	.moikit-gene-img-c{
+		position:relative;
+		width:80%;
+		margin:0 auto;
+		top:100px;
+	}
+	.moikit-gene-img-c img{
+		display:block;
+		width:100%;
+	}
+	.moikit-gene-ptc{
+		height:400px;
+	}
+	.moikit-gtptc-box{
+		top:50px;
+	}
+	.moikit-gene-ptd{
+		height:350px;
+		background-size:auto 100%;
+	}
+	.moikit-gtptd-box{
+		width:100%;
+		left:0px;
+		top:auto;
+		text-align:center;
+		bottom:20px;
+	}
+	.moikit-txt-left,.moikit-txt-tip-left{
+		text-align:center;
+	}
+	.moikit-gene-pte{
+		height:400px;
+	}
+	.moikit-gene-img-f{
+		width:100%;
+	}
+	.moikit-gene-ptf{
+		height:305px;
+	}
+	.moikit-gene-img-f img,.moikit-gene-img-g img,.moikit-gene-img-i img,.moikit-gene-img-l img{
+		display:block;
+		width:100%;
+	}
+	.moikit-gtptf-box{
+		left:0px;
+		top:50px;
+		width:100%;
+		text-align:center;
+	}
+	.moikit-gene-img-g{
+		width:100%;
+		bottom:0px;
+	}
+	.moikit-gene-ptg{
+		height:400px;
+	}
+	.moikit-gene-img-h{
+		width:100%;
+	}
+	.moikit-gene-img-h img{
+		display:block;
+		width:150%;
+	}
+	.moikit-gene-pth{
+		height:400px;
+	}
+	.moikit-gene-img-i{
+		left:0px;
+	}
+	.moikit-gene-pti{
+		height:500px;
+	}
+	.moikit-gene-ptj{
+		height:400px;
+		background-size:auto 100%;
+	}
+	.moikit-gtptj-box{
+		width:100%;
+		left:0px;
+		top:100px;
+	}
+	.moikit-txt-ipx{
+		margin:10px auto 0px auto;
+	}
+	.moikit-gene-ptk-app span{
+		position:relative;
+		width:100px;
+	}
+	.moikit-gene-ptk-pos{
+		width:500px;
+		top:230px;
+		margin-left:-240px;
+	}
+	.moikit-gene-ptk-app span img{
+		display:block;
+		width:100%;
+	}
+	.moikit-gene-ptk{
+		height:410px;
+	}
+	.moikit-gene-img-l{
+		width:100%;
+	}
+	.moikit-gene-ptl{
+		height:445px;
+	}
+	.moikit-gene-img-l{
+		bottom:-125px;
+	}
+	.moikit-gene-ptm{
+		height:350px;
+		background-size:auto 100%;
+	}
+	.moikit-gene-ptn{
+		height:250px;
+	}
+	.moikit-swiper-box{
+		background-size:auto 100%;
+	}
+	.swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet{
+		margin:0 10px;
+	}
+	.moikit-gene-nav{
+		display:none;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 1024px){
+	.moikit-nav-logo{
+		margin-left:15px;
+	}
+	.moikit-gtpta-box{
+		top:120px;
+		left:15px;
+	}
+	.moikit-gt-logo{
+		position:relative;
+		width:50%;
+	}
+	.moikit-gt-logo img{
+		display:block;
+		width:100%;
+	}
+
+	.moikit-gt-price{
+		margin:10px 0px;
+	}
+	.moikit-txt-content,.moikit-gene-txt{
+		width:100%;
+	}
+	.moikit-txt-title{
+		width:95%;
+		margin:0px auto 20px auto;
+	}
+	.moikit-txt-content{
+		width:95%;
+		margin:0 auto;
+	}
+	.moikit-txt-tip{
+		width:95%;
+		margin:15px auto 0px auto;
+	}
+	.moikit-gene-ptd{
+		background-size:auto 100%;
+	}
+	.moikit-gtptf-box{
+		width:100%;
+		left:0px;
+		top:50px;
+	}
+	.moikit-gn-content{
+		width:100%;
+	}
+	.moikit-gn-box{
+		margin-right:15px;
+	}
+	.moikit-gtptd-box,.moikit-gtptj-box{
+		left:auto;
+		right:10px;
+	}
+	.moikit-gtptf-box div.moikit-txt-title{
+		text-align:center;
+	}
+	.moikit-gtptj-box div.moikit-txt-title,.moikit-gtptj-box div.moikit-txt-content,.moikit-gtptj-box div.moikit-txt-tip{
+		width:100%;
+	}
+}

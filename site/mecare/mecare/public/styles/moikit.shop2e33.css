@@ -1,0 +1,138 @@
+/***********************************
+// date:2015 12 22
+// 功能：麦开官网通用文件
+// 作者：leo
+// Emial：Readchar@163.com
+*********************************/
+/*麦开官网商城页面样式*/
+.e-shop{
+	min-width:auto;
+	background: #f9f9f9;
+	padding: 40px 0px 60px 0px;
+}
+.es-context{
+	position:relative;
+	width:100%;
+	max-width:1190px;
+	overflow:hidden;
+	border-radius:5px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+.new-esg-detail{
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	left:0px;
+	top:0px;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+.new-esg-detail:hover {
+    box-shadow: inset #000 0 0 50px;
+}
+.es-goods{
+	position: relative;
+	height:auto;
+    background: #FFF;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+.es-goods img{
+	position:relative;
+	display:block;
+	width:100%;
+}
+.moikit-eshop-pro{
+	margin-top:30px;
+	overflow:hidden;
+	border:#e6e6e6 solid 1px;
+	border-radius:5px;
+	overflow:hidden;
+}
+.moikit-eshop-pro-pos{
+	position:relative;
+	width:25%;
+	float:left;
+	overflow:hidden;
+	background-color:#e6e6e6;
+}
+.moikit-eshop-pro-list{
+	display:block;
+	position:relative;
+	width:100%;
+	background-color:#ffffff;
+	padding:44px 0px 37px 0px;
+	transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    -moz-transition: all ease .2s;
+    -o-transition: all ease .2s;
+}
+.moikit-eshop-pro-pos-a{
+	margin-left:1px;
+}
+.moikit-eshop-pro-list:hover{
+	box-shadow: inset #e0e0e0 0 0 10px;
+}
+.moikit-eshop-pro-img{
+	width:100%;
+}
+.moikit-eshop-pro-img img{
+	position:relative;
+	display:block;
+	width:100%;
+	max-width:240px;
+	margin:0 auto;
+}
+.moikit-eshop-pro-txt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999999;
+	text-align:center;
+	margin:10px 0px 11px 0px;
+}
+.moikit-eshop-pro-price{
+	font-size:18px;
+	text-align:center;
+	color:#00acd4;
+	font-weight:400;
+	font-family: "思源黑体 CN","微软雅黑","Hiragino Sans GB","Heiti SC",Arial, Helvetica, sans-serif
+}
+@media screen and (max-width: 1024px) {
+	.moikit-eshop-pro-pos{
+		width:50%;
+	}
+	.moikit-eshop-pro-pos-a{
+		margin-left:0px;
+	}
+	.moikit-eshop-pro-pos-left{
+		margin-left:1px;
+	}
+	.moikit-eshop-pro-pos-top{
+		margin-top:1px;
+	}
+	.e-shop{
+		padding:0px 0px 0px 0px;
+		min-width:100%;
+	}
+	.es-context{
+		border-radius:0px;
+	}
+	.moikit-eshop-pro{
+		margin-top:0px;
+		border-radius:0px;
+		border-left:none;
+		border-right:none;
+	}
+	.moikit-eshop-pro-list{
+		padding:13px 0px;
+	}
+	.moikit-eshop-pro-txt{
+		width:80%;
+		margin: 10px auto 11px auto;
+	}
+}

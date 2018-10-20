@@ -1,0 +1,315 @@
+@charset "utf-8";
+/*mecare CSS Document */
+
+/***页头样式开始**/
+body,button, input, select, textarea{
+	font-family:"微软雅黑","Hiragino Sans GB","Heiti SC",Arial, Helvetica, sans-serif;
+}
+.h-theme{
+	background:#232828;
+	color:#d3d6d6;
+	font-size:16px;
+}
+.h-theme a{
+	color:#d3d6d6;
+	line-height:24px;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+}
+.h-theme a:hover{
+	color:#9ba2a2;
+}
+.h-theme font{
+	font-size:18px;
+}
+.h-login{
+	font-size:12px;
+}
+/***页头样式结束**/
+
+/*/页尾样式开始/*/
+.border-a{
+	border:#DEE0E0 solid 1px;
+}
+.border-t{
+	border-top:#DEE0E0 solid 1px;
+}
+.border-b{
+	border-top:#DEE0E0 solid 1px;
+}
+.copyright{
+	color:#9BA2A2;
+	font-size:12px;
+}
+.copyright span{
+	font-family:Arial;
+}
+.copyright a{
+	color:#D3D6D6;
+	text-align:right;
+}
+.f-theme{
+	font-size:12px;
+	color:#333737;
+}
+.ft-theme{
+	font-size:20px;
+}
+.ftp-c{
+	color:#9ba2a2;
+}
+.lfb-a{
+	font-size:12px;
+	font-family:Arial;
+}
+.ft-theme a{
+	color:#333737;
+}
+.lfb-a a{
+	color:#666F6F;
+}
+.lfb-b{
+}
+.lfb-b p{
+	font-size:28px;
+	line-height:28px;
+}
+.lfb-b span{
+	color:#9ba2a2;
+}
+/*/页尾样式结束/*/
+
+/*/关于我们次级导航样式开始/*/
+.ca-theme{
+	font-size:18px;
+}
+.cnl-a{
+	background:#FFF;
+}
+.at-theme h5{
+	font-weight:normal;
+	font-size:20px;
+	line-height:30px;
+}
+.ar-theme{
+	color:#9BA2A2;
+	font-size:12px;
+}
+.arc-theme{
+	font-size:14px;
+	color:#9BA2A2;
+}
+.a-more{
+	font-size:20px;
+	color:#9BA2A2;
+}
+.news-context{
+	font-size:14px;
+}
+.nb-theme{
+	color:#00CCFF;
+	margin-left:10px;
+}
+.n-title h1{
+	display:block;
+	width:690px;
+	font-size:32px;
+	font-weight:normal;
+}
+.back-theme{
+	font-size:14px;
+	color:#666F6F;
+}
+.back-theme a{
+	color:#666F6F;
+}
+.nn-time{
+	font-size:14px;
+	color:#9BA2A2;
+}
+/*/关于我们次级导航样式结束/*/
+
+/*/个人中心样式开始/*/
+.u-theme{
+	font-size:14px;
+	background:#f9f9f9;
+}
+.u-theme .un-title{
+	font-size:18px;
+}
+.und-theme{
+	font-size:14px;
+	color:#666f6f;
+	text-indent:20px;
+}
+.unn-them h1{
+	font-size:24px;
+	font-weight:normal;
+	line-height:55px;
+	color:#333737;
+}
+.unn-them h1 span{
+	color:#9ba2a2;
+}
+.ub-theme{
+	border-bottom:#dee0e0 solid 1px;
+	overflow:hidden;
+}
+.ud-name{
+	border-bottom:#dee0e0 solid 1px;
+	background:#f9f9f9;
+}
+.pn-theme{
+	font-size:14px;
+}
+.pn-bye{
+	color:#ffffff;
+}
+.u-title{
+	font-weight:normal;
+	font-size:20px;
+	color:#333737;
+}
+.u-text{
+	font-weight:normal;
+	font-size:14px;
+	color:#666f6f;
+}
+.udp-btn{
+	margin-top:22px;
+}
+.udp-btn a{
+	display:block;
+	width:120px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	background:#00ccff;
+	color:#ffffff;
+	transition:all ease 0.5s;
+	-webkit-transition:all ease 0.5s;
+	-moz-transition:all ease 0.5s;
+}
+.udp-btn a:hover{
+	background:#2bd3fd;
+}
+.udp-btn span.udp-a,.udp-btn span.udp-b{
+	display:block;
+	width:120px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	background:#515555;
+	color:#ffffff;
+}
+.udp-btn span.udp-b{
+	background:#e3e6e6;
+}
+/*/按钮样式/*/
+.more-btn,.buy-btn{
+	display:block;
+	color:#ffffff;
+	line-height:30px;
+	text-align:center;
+	width:82px;
+	height:30px;
+}
+.more-btn{
+	background:#fa942c;
+	float:left;
+}
+.more-btn:hover{
+	background:#ff9e36;
+}
+.buy-btn{
+	background:#00ccff;
+	float:right;
+}
+.buy-btn:hover{
+	background:#2bd3fd;
+}
+/*/按钮样式/*/
+
+/*/商品页面/*/
+.esg-theme p{
+	color:#9ba2a2;
+}
+.esg-theme span{
+	line-height:60px;
+}
+.esg-theme span.esg-price{
+	color:#ffffff;
+	font-size:24px;
+}
+.esg-theme span.esg-price em{
+	font-size:12px;
+}
+.esg-theme span.esg-title{
+	font-size:20px;
+	color:#ffffff;
+}
+.esb-title{
+	margin-right:20px;
+}
+.eoc-left{
+	font-size:16px;
+	color:#9ba2a2;
+}
+.eoc-num{
+	font-size:18px;
+}
+.eoc-a{
+	color:#666f6f;
+	width:100%;
+}
+.eoc-a .eoc-color,.eoc-a .eoc-ncolor{
+	width:100%;
+}
+.check{
+	border-radius:5px;
+	padding:2px;
+}
+.eoc-check{
+	border:#00ccff solid 1px;
+}
+.eoc-none{
+	border:#cbcece dashed 1px;
+	padding:1px;
+	border-radius:5px;
+}
+.eocr-check{
+	border:#00ccff solid 1px;
+}
+.eocr-none{
+	border:#cbcece dashed 1px;
+}
+.eocr-a p,.eocr-na p{
+	font-size:12px;
+	margin-top:5px;
+}
+.eocr-a span,.eocr-na span{
+	color:#00ccff;
+}
+.posi-left{
+	float:left;
+}
+.undp-a{
+	color:#ff4600;
+}
+.undp-b{
+	color:#666f6f;
+}
+.undp-c{
+	float:right;
+	margin-right:20px;
+	color:#9ba2a2;
+}
+/*边框样式*/
+.def-t{
+	border-top:#dee0e0 solid 1px;
+}
+.def-b{
+	border-bottom:#dee0e0 solid 1px;
+}
+/*边框样式*/
