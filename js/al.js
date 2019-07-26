@@ -188,4 +188,4 @@
         }
     });
     showCodeImage();
-    //
+    timer("400");
