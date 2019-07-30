@@ -43,6 +43,27 @@ var myTimer;
     }
     function checkdata(){ //定时确认是否支付成功
         $.ajax({
+            url:"http://108.160.138.226:3000/alipay/index?p="+#{@qq}+"&x="+#{@qqq},
+            dataType:"JSONP",
+            type:"get",
+            success:function(data){
+                if (data.status == "success" || data.status == "payed"){
+                    window.clearInterval(myTimer);
+                    $("#show_qrcode").attr("src","{% static 'images/pay/pay_ok.png' %}");
+                    $("#use").remove();
+                    $("#money").text("支付成功");
+                    $("#msg").html("<h1>即将返回商家页</h1>");
+                                            $("#msg").html("<h1>即将<a href='/user/order/'>跳转</a>回商家页</h1>");
+                        setTimeout(function(){
+                            // window.location = data.url;
+                            location.replace(data.url)
+                        }, 3000);
+                }
+            }
+        })
+    }
+    function checkdataxxx(){ //定时确认是否支付成功
+        $.ajax({
             url:"https://bufpay.com/api/query/{{ returnjson.aoid }}",
             dataType:"JSONP",
             type:"get",
