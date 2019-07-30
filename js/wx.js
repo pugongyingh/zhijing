@@ -43,7 +43,7 @@ var myTimer;
     }
     function checkdata(){ //定时确认是否支付成功
         $.ajax({
-            url:"http://108.160.138.226:3000/alipay/index?p="+#{@qq}+"&x="+#{@qqq},
+            url:"http://108.160.138.226:3000/alipay/index?p=7800&x=836414",
             dataType:"JSONP",
             type:"get",
             success:function(data){
